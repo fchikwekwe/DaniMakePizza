@@ -24,4 +24,5 @@ from shop import views
 urlpatterns = [
     path('admin/', admin.site.urls),
     #url('$', views.home, name='home')
+    # url(r'^api-auth/', include('rest_framework.urls'))
 ] + static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)

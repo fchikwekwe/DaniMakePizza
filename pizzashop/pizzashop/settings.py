@@ -40,6 +40,9 @@ INSTALLED_APPS = [
 
     'pizza.apps.PizzaConfig',
     'shop.apps.ShopConfig',
+    'api.apps.ApiConfig',
+
+    'rest_framework',
 ]
 
 MIDDLEWARE = [
